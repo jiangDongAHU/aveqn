@@ -10,9 +10,9 @@ Both the audio and video encryption softwares are developed on a workstation equ
 
 ### File Description
 
-- audioEncryption directory : Source files for the audio encryption utilized within the proposed framework. Executing the setup.sh script directly compiles the source files.
+- audioEncryption directory : Source files for the audio encryption and decryption utilized within the proposed framework. Executing the setup.sh script directly compiles the source files.
 
-- videoEncryption directory : Source files for the video encryption utilized within the proposed framework. Executing the setup.sh script directly compiles the source files.
+- videoEncryption directory : Source files for the video encryption and decryption utilized within the proposed framework. Executing the setup.sh script directly compiles the source files.
 
 - quantumBits directory : Quantum bits generated in the laboratory are stored in this directory.
 
@@ -51,8 +51,6 @@ Similarly, the parameters for video encryption are defined in videoEncryption. h
 #define DIFFUSION_CONFUSION_ROUNDS  3
 #define NUMBER_OF_THREADS           32
 ```
-
-The software can be executed with the new configuration by modifying these parameters and recompiling the code.
 
 ### Special Instructions
 
